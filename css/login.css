@@ -1,0 +1,101 @@
+@import url('../css/font.css');
+
+:root{
+ /*theme color*/
+ --text-grey: #3f4954;
+ --text-light:#686666da;
+ --bg-color: #0f0f0f;
+ --white: #ffffff;
+ --midnight: #104f55;
+ --navy: #25274D;
+
+/*gradient-color*/
+--sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+/*theme font-family*/
+--Abel:'Abel',cursive;
+--Anton:'Anton',cursive;
+--Josefin:'Josefin',cursive;
+--Lexend:'Lexend',cursive;
+--Livvic:'Livvic',cursive;
+}
+
+body{
+  background-color: black;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  font-family: Josefin;
+  border-bottom: 6px solid white;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: Anton;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid white;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  font-family: Abel;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  font-family: Abel;
+  cursor: pointer;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: var(--text-light);
+  transition: 0.5s;
+  border: 2px solid var(--text-light);
+}
+
+.signup{
+  width: 100%;
+  text-align: center;
+  background: none;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  font-family: anton;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.signup:hover{
+  color: var(--text-light);
+  font-style: none;
+}

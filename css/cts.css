@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('../css/font.css');
+
+:root{
+/*theme font-family*/
+--Abel:'Abel',cursive;
+--Anton:'Anton',cursive;
+--Josefin:'Josefin',cursive;
+--Lexend:'Lexend',cursive;
+--Livvic:'Livvic',cursive;
+}
+
+.submit-container{
+  text-align: center;
+}
+
+.sbt-btn{
+  padding: 20px, 80px;
+  border-width: 2px;
+  border-color: none;
+  background-color: black;
+  color: var(--white);
+  cursor: pointer;
+  transition: 0.6s;
+  border-radius: 15px;
+  font-family: Abel; 
+  font-size: 25px
+}
+
+.sbt-btn:hover{
+  background-color: var(--midnight);
+}
+
+.banner img{
+  display: block;
+  filter: brightness(60%);
+}
+.banner-content{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);margin-top: -18px;
+  box-sizing: inherit;
+}
+.banner-content h1{
+  font-family: 'Nova Square', cursive;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.banner-content p{
+  font-family: abel;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.form-input{
+  text-align: center;
+}

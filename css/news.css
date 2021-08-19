@@ -1,0 +1,48 @@
+@import url('../css/font.css');
+
+:root{
+  /*theme color*/
+  --text-grey: #3f4954;
+  --text-light:#686666da;
+  --bg-color: #0f0f0f;
+  --white: #ffffff;
+  --midnight: #104f55;
+  --navy: #25274D;
+
+  /*theme font-family*/
+  --Abel:'Abel',cursive;
+  --Anton:'Anton',cursive;
+  --Josefin:'Josefin',cursive;
+  --Lexend:'Lexend',cursive;
+  --Livvic:'Livvic',cursive;
+}
+
+.news-title{
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  font-family: Abel;
+  font-weight: bold;
+}
+
+.news-card a{
+  float: left;
+  padding-left: 100px;
+  padding-right: 40px;
+}
+
+.news-content{
+  padding-top: 0px;
+  padding-right: 100px;
+  text-align: justify;
+}
+
+.news-content h4{
+  font-size: 25px;
+  font-family: Anton;
+}
+
+.news-content p{
+  font-size: 20px;
+  font-family: Livvic;
+}
